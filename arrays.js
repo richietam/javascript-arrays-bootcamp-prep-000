@@ -10,3 +10,9 @@ function removeElementFromBeginningOfArray() {
   removeElementFromBeginningOfArray = removeElementFromBeginningOfArray.slice(1)
   removeElementFromBeginningOfArray
 }
+
+function destructivelyRemoveElementFromEndOfArray() {
+  var destructivelyRemoveElementFromEndOfArray = [1, 2, 3]
+  destructivelyRemoveElementFromEndOfArray = destructivelyRemoveElementFromEndOfArray.pop
+  destructivelyRemoveElementFromEndOfArray
+}
