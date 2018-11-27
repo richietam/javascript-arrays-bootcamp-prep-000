@@ -13,6 +13,6 @@ function removeElementFromBeginningOfArray() {
 
 var destructivelyRemoveElementFromEndOfArray = [1, 2, 3]
 function destructivelyRemoveElementFromEndOfArray() {
-  var destructivelyRemoveElementFromEndOfArray = destructivelyRemoveElementFromEndOfArray.pop
+  destructivelyRemoveElementFromEndOfArray = destructivelyRemoveElementFromEndOfArray.pop
   return destructivelyRemoveElementFromEndOfArray
 }
