@@ -20,6 +20,6 @@ function destructivelyRemoveElementFromEndOfArray() {
 
 function removeElementFromEndOfArray () {
   var removeElementFromEndOfArray = [1, 2, 3]
-  removeElementFromEndOfArray.slice(0, removeElementFromEndOfArray.length -1)
+  removeElementFromEndOfArray.slice(0, 2)
   removeElementFromEndOfArray
 }
